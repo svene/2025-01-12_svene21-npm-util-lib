@@ -6,7 +6,8 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "ci": "npm run build"
   },
   "author": "Sven Ehrke (https://github.com/svene)",
   "license": "MIT",
