@@ -18,6 +18,10 @@
     "demo",
     "typescript"
   ],
+  "homepage": "https://github.com/svene/2025-01-12_svene21-npm-util-lib",
+  "bugs": {
+    "url": "https://github.com/svene/2025-01-12_svene21-npm-util-lib/issues"
+  },
   "devDependencies": {
     "prettier": "^3.4.2",
     "typescript": "^5.7.3"
