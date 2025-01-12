@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build"
+    "ci": "npm run build",
+    "format": "prettier --write ."
   },
   "author": "Sven Ehrke (https://github.com/svene)",
   "license": "MIT",
@@ -17,6 +18,7 @@
     "typescript"
   ],
   "devDependencies": {
+    "prettier": "^3.4.2",
     "typescript": "^5.7.3"
   }
 }
