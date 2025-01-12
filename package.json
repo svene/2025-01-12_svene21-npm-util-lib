@@ -7,8 +7,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "ci": "npm run build && npm run check-format"
   },
   "author": "Sven Ehrke (https://github.com/svene)",
   "license": "MIT",
